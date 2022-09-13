@@ -120,11 +120,11 @@
                             <fieldset>
                                 <legend>Reservation</legend>
                                 <label for="checkInDate">Check In Date</label>
-                                <input id="checkInDate" name="checkInDate" type="date" placeholder="Check In Date">
+                                <input id="checkInDate" name="checkInDate" type="date" placeholder="Check In Date" required>
                                 <label for="checkOutDate">Check Out Date</label>
-                                <input id="checkOutDate" name="checkOutDate" type="date" placeholder="Check Out Date">
+                                <input id="checkOutDate" name="checkOutDate" type="date" placeholder="Check Out Date" required>
                                 <label for="numberOfRooms">Number of Rooms</label>
-                                <input id="numberOfRooms" name="numberOfRooms" type="number" placeholder="Number of Rooms">
+                                <input id="numberOfRooms" name="numberOfRooms" type="number" placeholder="Number of Rooms" required>
                             </fieldset>
                             <button type="submit" class="pure-button pure-button-primary">Submit</button>
                         </form>
@@ -205,7 +205,7 @@
                     </ul>
                     <!-- copyright info -->
                     <ul class="pure-menu-list footer-column">
-                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">© 2020 Broke Student Hotel</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">© 2022 Broke Student Hotel</a></li>
                     </ul>
                 </div>
             </div>

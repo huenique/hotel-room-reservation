@@ -26,6 +26,11 @@ Route::post('/', function (Request $request) {
         'checkOutDate' => 'required',
         'numberOfRooms' => 'required',
     ]);
+
+    if ($request->numberOfRooms < 1) {
+        return view('reservation');
+    }
+
     $numberOfRooms = $request->numberOfRooms;
     $numberOfDays = $request->numberOfDays;
 
